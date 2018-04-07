@@ -1,7 +1,10 @@
 {
   "name": "generator-reactjs-webapp",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "ReactJs basic skeleton for webapp development.",
+  "files": [
+    "generators"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +14,7 @@
     "url": "git+https://github.com/iGerley/generator-reactjs-webapp.git"
   },
   "keywords": [
+    "yeoman-generator",
     "react",
     "webapp",
     "webpack",
@@ -23,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/iGerley/generator-reactjs-webapp/issues"
   },
-  "homepage": "https://github.com/iGerley/generator-reactjs-webapp#readme"
+  "homepage": "https://github.com/iGerley/generator-reactjs-webapp#readme",
+  "dependencies": {
+    "yeoman-generator": "2.0.3"
+  }
 }

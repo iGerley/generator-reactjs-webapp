@@ -1,0 +1,17 @@
+# Bundle File
+public/bundle.js
+
+# Dependency directory
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+package-lock.json
+yarn.lock
+
+# Yarn Integrity file
+.yarn-integritys

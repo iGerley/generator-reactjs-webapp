@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/iGerley/generator-reactjs-webapp#readme",
   "dependencies": {
+    "babel-core": "6.26.0",
     "yeoman-generator": "2.0.3"
   },
   "devDependencies": {

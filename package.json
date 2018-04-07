@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/iGerley/generator-reactjs-webapp#readme",
   "dependencies": {
-    "babel-core": "6.26.0",
     "yeoman-generator": "2.0.3"
   },
   "devDependencies": {
+    "babel-core": "6.26.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "webpack": "3.11.0",

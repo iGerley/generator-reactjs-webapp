@@ -1,7 +1,7 @@
 {
   "name": "generator-reactjs-webapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "ReactJs basic skeleton for webapp development.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/iGerley/generator-reactjs-webapp.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "webapp",
+    "webpack",
+    "skeleton",
+    "yeoman",
+    "generator"
+  ],
+  "author": "Gerley Adriano <gerleyadrianomiranda@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/iGerley/generator-reactjs-webapp/issues"
   },

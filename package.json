@@ -44,5 +44,9 @@
   },
   "optionalDependencies": {
     "fsevents": "*"
+  },
+  "engines": {
+    "node": "9.8.0",
+    "npm": "5.6.0"
   }
 }

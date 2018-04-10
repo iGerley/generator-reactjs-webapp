@@ -3,22 +3,22 @@ const path = require('path');
 module.exports = {
     entry: './src/app.js',
     output: {
-        'path': path.resolve(__dirname, 'public'),
-        'filename': 'bundle.js'
+        path: path.resolve(__dirname, 'public'),
+        filename: 'bundle.js'
     },
     module: {
-        loaders: [
+        rules: [
             {
                 loader: 'babel-loader',
-                "text": /\.js$/,
-                "exlude": /node_modules/
+                test: /\.js$/,
+                exclude: /node_modules/
             }
         ]
     },
-    "devtool": "cheap-module-eval-source-map",
-    "devServer": {
+    devtool: "cheap-module-eval-source-map",
+    devServer: {
         port: 3000,
-        contentBase: './public',
+        contentBase: path.resolve(__dirname, 'public'),
         inline: true
     }
 }

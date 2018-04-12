@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --color --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
